@@ -1,11 +1,17 @@
 {
   "name": "desktop-pet",
-  "version": "0.1.0",
+  "productName": "小鱼",
+  "version": "0.2.0",
   "private": true,
-  "description": "A friendly desktop companion prototype",
+  "description": "A friendly desktop companion (Windows, Electron shell)",
   "main": "electron/main.cjs",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "check": "node --check electron/main.cjs && node --check electron/preload.cjs && node --check src/app.js"
   },
   "devDependencies": {
     "electron": "45.2.3"
