@@ -1,4 +1,4 @@
-node_modules/
+﻿node_modules/
 dist/
 out/
 release/
@@ -6,3 +6,10 @@ release/
 Thumbs.db
 *.log
 .env
+
+# character art stays local, never committed
+assets/character-chibi*.png
+src/character-texture.js
+docs/design/
+assets/private/
+assets/actions/
