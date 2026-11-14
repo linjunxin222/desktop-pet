@@ -6,3 +6,7 @@ release/
 Thumbs.db
 *.log
 .env
+__pycache__/
+
+# Local generation/reference output, not part of the app.
+/output/
